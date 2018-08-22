@@ -24,7 +24,7 @@
     <!-- Full navbar -->
     <div collapse="!showCollapsed" class="navbar-collapse" kbn-chrome-append-nav-controls>
       <ul class="nav navbar-nav" role="navigation">
-        <li
+        <!-- <li
           ng-if="chrome.getBrand('logo')"
           ng-style="{ 'background': chrome.getBrand('logo') }"
           aria-label="{{ chrome.getAppTitle() }} Logo"
@@ -44,7 +44,7 @@
           <a ng-href="{{ tab.href() }}" ng-style="{ 'border-bottom-color': tab.activeIndicatorColor }">
             {{ tab.title }}
           </a>
-        </li>
+        </li> -->
 
         <li class="to-body" ng-class="{ active: appSwitcherTemplate.is('switcher') }" ng-if="chrome.getShowAppsLink()">
           <a ng-click="appSwitcherTemplate.toggle('switcher')">
